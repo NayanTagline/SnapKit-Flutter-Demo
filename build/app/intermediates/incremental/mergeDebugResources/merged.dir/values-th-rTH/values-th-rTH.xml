@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">เชื่อมต่อกับ Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">ไม่สามารถแชร์เนื้อหานี้กับ Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">ข้อผิดพลาดในการเชื่อมต่อ</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">มีบางอย่างผิดพลาด กรุณาลองอีกครั้ง</string>
+    <string name="snap_kit_bitmoji_connection_lost">การเชื่อมต่อขาดหาย</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">ตรวจสอบการเชื่อมต่อของคุณ แล้วลองอีกครั้ง</string>
+    <string name="snap_kit_bitmoji_create_avatar">สร้าง Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">เราจะนำคุณไปยังแอป Snapchat</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">สร้างอวทาร์ของคุณ และรับสติกเกอร์นับพันที่มีภาพคุณ!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">ระบบจะนำคุณไปที่ Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">เชื่อมต่อเพื่อใช้สติกเกอร์ Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>เปิดสิทธิ์การใช้งาน Bitmoji</b>\nเพื่อใช้สติกเกอร์ Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_results">ไม่พบผลลัพธ์</string>
+    <string name="snap_kit_bitmoji_retry">ลองใหม่อีกครั้ง</string>
+    <string name="snap_kit_bitmoji_search_hint">ค้นหา Bitmoji…</string>
+    <string name="snap_kit_bitmoji_turn_on">เปิด</string>
+</resources>

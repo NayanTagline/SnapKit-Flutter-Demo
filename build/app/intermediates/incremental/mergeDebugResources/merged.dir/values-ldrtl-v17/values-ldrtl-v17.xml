@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="snap_kit_bitmoji_back_button_initial_translate_x">30dp</dimen>
+    <dimen name="snap_kit_bitmoji_search_field_initial_translate_x">20dp</dimen>
+    <style name="SnapKitBitmojiRtlImage">
+        <item name="android:scaleX">-1</item>
+    </style>
+</resources>

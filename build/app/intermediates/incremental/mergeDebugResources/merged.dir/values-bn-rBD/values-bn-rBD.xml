@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchat-এর সাথে সংযোগ স্থাপন করুন</string>
+    <string name="snap_connect_snap_error_cannot_share_content">Snapchat-এর সাথে এই বিষয়বস্তুটি ভাগ করা যায় না</string>
+    <string name="snap_kit_bitmoji_connection_error">সংযোগ ত্রুটি</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।</string>
+    <string name="snap_kit_bitmoji_connection_lost">সংযোগ বিচ্ছিন্ন</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">অনুগ্রহ করে, আপনার সংযোগ খতিয়ে দেখে আবার চেষ্টা করুন।</string>
+    <string name="snap_kit_bitmoji_create_avatar">Bitmoji তৈরী করুন</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">আপনাকে Snapchat অ্যাপে নিয়ে যাওয়া হবে</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">আপনার অভতার তৈরি করুন আর আপনাকে তারকা বানিয়ে তৈরি হাজার-হাজার স্টিকার পান!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">আপনাকে Snapchat-এ নিয়ে যাওয়া হবে</string>
+    <string name="snap_kit_bitmoji_login_title">Bitmoji স্টিকার ব্যবহারের সাথে সংযুক্ত করুন</string>
+    <string name="snap_kit_bitmoji_no_permission_text">Bitmoji স্টিকার ব্যবহার করতে<b>\nBitmoji অনুমতি চালু করুন</b></string>
+    <string name="snap_kit_bitmoji_no_results">কোনো ফলাফল পাওয়া যায়নি</string>
+    <string name="snap_kit_bitmoji_retry">পুনরায় চেষ্টা করুন</string>
+    <string name="snap_kit_bitmoji_search_hint">Bitmoji অনুসন্ধান করুন...</string>
+    <string name="snap_kit_bitmoji_turn_on">চালু করুন</string>
+</resources>

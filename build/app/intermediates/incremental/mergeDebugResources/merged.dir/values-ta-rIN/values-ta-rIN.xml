@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchatஉடன் இணையுங்கள்</string>
+    <string name="snap_connect_snap_error_cannot_share_content">இந்த உள்ளடக்கத்தை Snapchatல் பகிர இயலாது</string>
+    <string name="snap_kit_bitmoji_connection_error">இணைப்புப் பிழை</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">ஏதோ தவறாகிட்டது. மீண்டும் முயலுங்கள்.</string>
+    <string name="snap_kit_bitmoji_connection_lost">இணைப்பு துண்டிக்கப்பட்டது</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">உங்கள் இணைப்பைச் சரிபார்த்து மீண்டும் முயலுங்கள்</string>
+    <string name="snap_kit_bitmoji_create_avatar">Bitmoji-ஐ உருவாக்குங்கள்</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">Snapchat செயலி திறக்கப்படும்</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">உங்களுக்கான அவதாரை உருவாக்கி உங்களைப் போன்ற ஆயிரக்கணக்கான ஸ்டிக்கர்களைப் பெறுங்கள்!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">நீங்கள் Snapchat-க்கு அழைத்துச்செல்லப்படுவீர்கள்</string>
+    <string name="snap_kit_bitmoji_login_title">Bitmoji ஸ்டிக்கர்களைப் பயன்படுத்த, இணையுங்கள்</string>
+    <string name="snap_kit_bitmoji_no_permission_text"> Bitmoji ஸ்டிக்கர்களைப் பயன்படுத்த<b>\nBitmoji அனுமதியை ஆன் செய்யவும்</b></string>
+    <string name="snap_kit_bitmoji_no_results">முடிவுகள் இல்லை</string>
+    <string name="snap_kit_bitmoji_retry">மீண்டும் முயலுங்கள்</string>
+    <string name="snap_kit_bitmoji_search_hint">Bitmoji-ஐத் தேடு...</string>
+    <string name="snap_kit_bitmoji_turn_on">இயக்கு</string>
+</resources>

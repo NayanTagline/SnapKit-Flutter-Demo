@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/tagline/Downloads/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ml-rIN/values-ml-rIN.xml",
+            "map": [
+                {
+                    "source": "/Users/tagline/.gradle/caches/transforms-2/files-2.1/dd143af4385365c7f1bba9207c2095dd/jetified-bitmoji-1.10.0/res/values-ml-rIN/values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,130,258,345,467,546,651,801,900,1007,1137,1215,1285,1360",
+                        "endColumns": "74,127,86,121,78,104,149,98,106,129,77,69,74,61",
+                        "endOffsets": "125,253,340,462,541,646,796,895,1002,1132,1210,1280,1355,1417"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "265,340,468,555,677,756,861,1011,1110,1217,1347,1425,1495,1570",
+                        "endColumns": "74,127,86,121,78,104,149,98,106,129,77,69,74,61",
+                        "endOffsets": "335,463,550,672,751,856,1006,1105,1212,1342,1420,1490,1565,1627"
+                    }
+                },
+                {
+                    "source": "/Users/tagline/.gradle/caches/transforms-2/files-2.1/3b4ebd90e30f4d71523df1fded974f3b/jetified-login-1.10.0/res/values-ml-rIN/values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "91",
+                        "endOffsets": "142"
+                    }
+                },
+                {
+                    "source": "/Users/tagline/.gradle/caches/transforms-2/files-2.1/483da3fe1e8ad31a2c00c95066cd403f/jetified-creative-1.10.0/res/values-ml-rIN/values-ml-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "117",
+                        "endOffsets": "168"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "147",
+                        "endColumns": "117",
+                        "endOffsets": "260"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Wed Jan 18 10:56:42 IST 2023
+base.0=/Users/tagline/Downloads/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

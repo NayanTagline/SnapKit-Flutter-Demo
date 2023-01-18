@@ -1,0 +1,5 @@
+com/jacobbrasil/snapkit/BuildConfig.java
+ com.jacobbrasil.snapkit.BuildConfig
+com/jacobbrasil/snapkit/SnapkitPlugin.java
+ com.jacobbrasil.snapkit.SnapkitPlugin
+ com.jacobbrasil.snapkit.SnapkitPlugin$1

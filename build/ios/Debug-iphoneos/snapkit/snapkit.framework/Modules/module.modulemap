@@ -1,0 +1,11 @@
+framework module snapkit {
+  umbrella header "snapkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module snapkit.Swift {
+    header "snapkit-Swift.h"
+    requires objc
+}

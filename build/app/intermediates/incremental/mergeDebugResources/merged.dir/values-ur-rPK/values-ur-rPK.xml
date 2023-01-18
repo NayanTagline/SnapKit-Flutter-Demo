@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchat سے مربوط ہوں</string>
+    <string name="snap_connect_snap_error_cannot_share_content">یہ مواد Snapchat پر شیئر نہيں کر سکتے</string>
+    <string name="snap_kit_bitmoji_connection_error">کنکشن کا نقص</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">کچھ غلط ہو گیا۔ براہِ کرم دوبارہ کوشش کریں۔</string>
+    <string name="snap_kit_bitmoji_connection_lost">کنکشن ختم ہو گیا</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">اپنا کنیکشن چیک کریں اور دوبارہ کوشش کریں</string>
+    <string name="snap_kit_bitmoji_create_avatar">Bitmoji تخلیق کریں</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">آپ کو Snapchat ایپ پر لے جایا جائے گا</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">اپنا اوتار بنائیں اور ہزاروں سٹیکرز حاصل کریں جن میں آپ موجود ہوں گے!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">آپ کو Snapchat لے جایا جائے گا</string>
+    <string name="snap_kit_bitmoji_login_title">Bitmoji سٹیکرز سے مربوط ہوں</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>Bitmoji سٹیکرز استعمال کرنے کیلئے Bitmoji اجازت آن کریں</b>\n</string>
+    <string name="snap_kit_bitmoji_no_results">کوئی نتائج نہیں ملے</string>
+    <string name="snap_kit_bitmoji_retry">دوبارہ کوشش کریں</string>
+    <string name="snap_kit_bitmoji_search_hint">Bitmoji تلاش کریں</string>
+    <string name="snap_kit_bitmoji_turn_on">آن کریں</string>
+</resources>

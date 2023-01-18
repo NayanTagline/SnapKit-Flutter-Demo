@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Conectar con Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">No se puede compartir este contenido con Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">Error en la conexión</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">Se produjo un error. Intentalo de nuevo.</string>
+    <string name="snap_kit_bitmoji_connection_lost">Se perdió la conexión</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">Verificá que tu conexión funcione y volvé a intentarlo</string>
+    <string name="snap_kit_bitmoji_create_avatar">Crear Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">Te vamos a llevar a la aplicación de Snapchat</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">Creá tu avatar y accedé a miles de stickers protagonizados por vos.</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">Te vamos a llevar a Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">Conectar para usar stickers de Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>Activá el permiso de Bitmoji</b>\npara poder usar stickers de Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_results">No hay resultados</string>
+    <string name="snap_kit_bitmoji_retry">Intentar nuevamente</string>
+    <string name="snap_kit_bitmoji_search_hint">Buscar Bitmoji...</string>
+    <string name="snap_kit_bitmoji_turn_on">Activar</string>
+</resources>

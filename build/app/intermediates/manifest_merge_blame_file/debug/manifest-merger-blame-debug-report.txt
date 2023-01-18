@@ -1,0 +1,203 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jacobbrasil.snapkit_example"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:88:5-66
+14-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:88:22-64
+15    <!-- For apps targeting Android 11 (API 30) or Higher, add this -->
+16    <queries>
+16-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:84:5-86:15
+17        <package android:name="com.snapchat.android" />
+17-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:85:9-56
+17-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:85:18-53
+18    </queries>
+19
+20    <application
+20-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:3:4-81:19
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:5:9-43
+24        android:label="snapkit_example" >
+24-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:4:9-40
+25        <meta-data
+25-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:7:8-9:67
+26            android:name="com.snapchat.kit.sdk.clientId"
+26-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:8:12-56
+27            android:value="b5fa5c65-ad56-461e-9280-07f869925d7b" />
+27-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:9:12-64
+28        <meta-data
+28-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:11:8-13:63
+29            android:name="com.snapchat.kit.sdk.redirectUrl"
+29-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:12:12-59
+30            android:value="snapkitExample://snap-kit/oauth2" />
+30-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:13:12-60
+31        <meta-data
+31-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:15:8-17:60
+32            android:name="com.snapchat.kit.sdk.scopes"
+32-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:16:12-54
+33            android:resource="@array/snap_connect_scopes" />
+33-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:17:12-57
+34
+35        <activity
+35-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:19:8-34:19
+36            android:name="com.snapchat.kit.sdk.SnapKitActivity"
+36-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:20:12-63
+37            android:launchMode="singleTask" >
+37-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:21:12-43
+38            <intent-filter>
+38-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:23:12-33:28
+39                <action android:name="android.intent.action.VIEW" />
+39-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:24:16-68
+39-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:24:24-65
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:25:16-75
+41-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:25:26-72
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:26:16-77
+42-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:26:26-74
+43
+44                <!-- Change this to match your redirect URL -->
+45                <data
+45-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:29:16-32:47
+46                    android:host="oauth"
+46-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:31:20-40
+47                    android:path="/snapchat"
+47-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:32:20-44
+48                    android:scheme="snapkitExample" />
+48-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:30:20-51
+49            </intent-filter>
+50        </activity>
+51
+52        <!-- Add this if you want to use the Creative Kit -->
+53        <provider
+54            android:name="androidx.core.content.FileProvider"
+55            android:authorities="com.jacobbrasil.snapkit_example.fileprovider"
+56            android:exported="false"
+57            android:grantUriPermissions="true" >
+58            <meta-data
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+60                android:resource="@xml/file_paths" />
+61        </provider>
+62
+63        <activity
+63-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:47:9-75:20
+64            android:name="com.jacobbrasil.snapkit_example.MainActivity"
+64-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:48:13-41
+65            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+65-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:51:13-163
+66            android:hardwareAccelerated="true"
+66-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:52:13-47
+67            android:launchMode="singleTop"
+67-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:49:13-43
+68            android:theme="@style/LaunchTheme"
+68-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:50:13-47
+69            android:windowSoftInputMode="adjustResize" >
+69-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:53:13-55
+70
+71            <!--
+72                 Specifies an Android theme to apply to this Activity as soon as
+73                 the Android process has started. This theme is visible to the user
+74                 while the Flutter UI initializes. After that, this theme continues
+75                 to determine the Window background behind the Flutter UI.
+76            -->
+77            <meta-data
+77-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:58:13-61:17
+78                android:name="io.flutter.embedding.android.NormalTheme"
+78-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:59:15-70
+79                android:resource="@style/NormalTheme" />
+79-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:60:15-52
+80            <!--
+81                 Displays an Android View that continues showing the launch screen
+82                 Drawable until Flutter paints its first frame, then this splash
+83                 screen fades out. A splash screen is useful to avoid any visual
+84                 gap between the end of Android's launch screen and the painting of
+85                 Flutter's first frame.
+86            -->
+87            <meta-data
+87-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:67:13-70:17
+88                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+88-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:68:15-79
+89                android:resource="@drawable/launch_background" />
+89-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:69:15-61
+90
+91            <intent-filter>
+91-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:71:13-74:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:72:17-68
+92-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:72:25-66
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:73:17-76
+94-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:73:27-74
+95            </intent-filter>
+96        </activity>
+97        <!--
+98             Don't delete the meta-data below.
+99             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+100        -->
+101        <meta-data
+101-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:78:9-80:33
+102            android:name="flutterEmbedding"
+102-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:79:13-44
+103            android:value="2" />
+103-->/Users/tagline/Downloads/example/android/app/src/main/AndroidManifest.xml:80:13-30
+104        <!--
+105         Each android device will only initialize one ContentProvider with a given authority
+106         string, so we use the app's applicationId to make this string unique per app.
+107        -->
+108        <provider
+108-->[com.snapchat.kit.sdk:core:1.10.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/4c6aac4ac0171394d4a379b560ef6783/jetified-core-1.10.0/AndroidManifest.xml:17:9-20:40
+109            android:name="com.snapchat.kit.sdk.SnapKitInitProvider"
+109-->[com.snapchat.kit.sdk:core:1.10.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/4c6aac4ac0171394d4a379b560ef6783/jetified-core-1.10.0/AndroidManifest.xml:18:13-68
+110            android:authorities="com.jacobbrasil.snapkit_example.SnapKitInitProvider"
+110-->[com.snapchat.kit.sdk:core:1.10.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/4c6aac4ac0171394d4a379b560ef6783/jetified-core-1.10.0/AndroidManifest.xml:19:13-71
+111            android:exported="false" />
+111-->[com.snapchat.kit.sdk:core:1.10.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/4c6aac4ac0171394d4a379b560ef6783/jetified-core-1.10.0/AndroidManifest.xml:20:13-37
+112        <provider
+112-->[com.squareup.picasso:picasso:2.71828] /Users/tagline/.gradle/caches/transforms-2/files-2.1/715a302dc28a793464f6abda64500e08/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+113            android:name="com.squareup.picasso.PicassoProvider"
+113-->[com.squareup.picasso:picasso:2.71828] /Users/tagline/.gradle/caches/transforms-2/files-2.1/715a302dc28a793464f6abda64500e08/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+114            android:authorities="com.jacobbrasil.snapkit_example.com.squareup.picasso"
+114-->[com.squareup.picasso:picasso:2.71828] /Users/tagline/.gradle/caches/transforms-2/files-2.1/715a302dc28a793464f6abda64500e08/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+115            android:exported="false" />
+115-->[com.squareup.picasso:picasso:2.71828] /Users/tagline/.gradle/caches/transforms-2/files-2.1/715a302dc28a793464f6abda64500e08/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+116
+117        <uses-library
+117-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+118            android:name="androidx.window.extensions"
+118-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+119            android:required="false" />
+119-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+120        <uses-library
+120-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+121            android:name="androidx.window.sidecar"
+121-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+122            android:required="false" />
+122-->[androidx.window:window:1.0.0-beta04] /Users/tagline/.gradle/caches/transforms-2/files-2.1/e4e324fde2799cc82a9b6d2e3e16efc2/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+123
+124        <provider
+124-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/2b69c31e2d0c1ab5d8b4254e9979a13b/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+125            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+125-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/2b69c31e2d0c1ab5d8b4254e9979a13b/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+126            android:authorities="com.jacobbrasil.snapkit_example.lifecycle-process"
+126-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/2b69c31e2d0c1ab5d8b4254e9979a13b/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+127            android:exported="false"
+127-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/2b69c31e2d0c1ab5d8b4254e9979a13b/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+128            android:multiprocess="true" />
+128-->[androidx.lifecycle:lifecycle-process:2.1.0] /Users/tagline/.gradle/caches/transforms-2/files-2.1/2b69c31e2d0c1ab5d8b4254e9979a13b/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+129    </application>
+130
+131</manifest>

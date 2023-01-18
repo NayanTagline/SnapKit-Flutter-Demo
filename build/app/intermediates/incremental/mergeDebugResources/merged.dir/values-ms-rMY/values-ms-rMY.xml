@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Sambungkan ke Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">Tidak boleh berkongsi kandungan ini ke Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">Ralat Sambungan</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">Ada yang tidak kena. Sila cuba lagi.</string>
+    <string name="snap_kit_bitmoji_connection_lost">Sambungan Terputus</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">Sila periksa sambungan anda dan cuba lagi.</string>
+    <string name="snap_kit_bitmoji_create_avatar">Cipta Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">Anda akan dibawakan ke aplikasi Snapchat</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">Cipta avatar anda dan dapatkan ribuan stiker yang anda bintangi!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">Anda akan dibawa ke Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">Sambung untuk Gunakan Stiker Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>Hidupkan kebenaran Bitmoji</b>\nuntuk menggunakan stiker Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_results">Tiada Keputusan Dijumpai</string>
+    <string name="snap_kit_bitmoji_retry">Cuba lagi</string>
+    <string name="snap_kit_bitmoji_search_hint">Cari Bitmoji…</string>
+    <string name="snap_kit_bitmoji_turn_on">Hidupkan</string>
+</resources>

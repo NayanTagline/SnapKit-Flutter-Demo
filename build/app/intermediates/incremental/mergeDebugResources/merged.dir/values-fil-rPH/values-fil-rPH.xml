@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Mag-connect sa Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">Hindi ma-share ang content na ito sa Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">May Error sa Connection</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">Nagkaroon ng problema. Pakisubukan ulit.</string>
+    <string name="snap_kit_bitmoji_connection_lost">Nawala ang Connection</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">I-check ang connection mo at subukan ulit</string>
+    <string name="snap_kit_bitmoji_create_avatar">Gumawa ng Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">Dadalhin ka sa Snapchat app</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">Gumawa ng avatar mo at makakuha ng libo-libong sticker na nagtatampok sa \'yo!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">Dadalhin ka sa Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">Mag-connect para Gamitin ang Bitmoji Stickers</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>I-on ang Bitmoji permission</b>\npara gamitin ang Bitmoji Stickers</string>
+    <string name="snap_kit_bitmoji_no_results">Walang Nakitang Resulta</string>
+    <string name="snap_kit_bitmoji_retry">I-retry</string>
+    <string name="snap_kit_bitmoji_search_hint">Mag-search ng Bitmoji…</string>
+    <string name="snap_kit_bitmoji_turn_on">I-on</string>
+</resources>

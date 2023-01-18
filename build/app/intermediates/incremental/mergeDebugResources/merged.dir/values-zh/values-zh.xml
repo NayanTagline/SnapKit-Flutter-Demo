@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">连接至 Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">无法将此内容分享到 Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">连接错误</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">出错了。请再试一次。</string>
+    <string name="snap_kit_bitmoji_connection_lost">失去连接</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">检查你的网络连接，然后重试。</string>
+    <string name="snap_kit_bitmoji_create_avatar">创建 Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">你将前往 Snapchat 应用</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">创建你的人物，以获得成千上万让自己闪耀的贴纸！</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">你将前往 Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">连接以使用 Bitmoji 贴纸</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>开启 Bitmoji 权限</b>\n以使用 Bitmoji 贴纸</string>
+    <string name="snap_kit_bitmoji_no_results">未找到结果</string>
+    <string name="snap_kit_bitmoji_retry">重试</string>
+    <string name="snap_kit_bitmoji_search_hint">搜索 Bitmoji...</string>
+    <string name="snap_kit_bitmoji_turn_on">开启</string>
+</resources>

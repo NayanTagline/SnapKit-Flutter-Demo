@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchat शी कनेक्ट करा</string>
+    <string name="snap_connect_snap_error_cannot_share_content">हा आशय Snapchatशी शेअर करता येत नाही</string>
+    <string name="snap_kit_bitmoji_connection_error">कनेक्शनमध्ये त्रुटी आली</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">काहीतरी चूक झाली. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="snap_kit_bitmoji_connection_lost">कनेक्शन गमावले</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">तुमचे इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.</string>
+    <string name="snap_kit_bitmoji_create_avatar">Bitmoji बनवा</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">तुम्हाला Snapchat ॲप वर नेले जाईल</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">तुमचा अवतार तयार करा आणि तुम्ही असलेले हजारो स्टिकर्स मिळवा!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">तुम्हाला Snapchat मध्ये नेले जाईल</string>
+    <string name="snap_kit_bitmoji_login_title">Bitmoji स्टिकर्स वापरण्यासाठी कनेक्ट करा</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>Bitmoji स्टिकर्स वापरण्यासाठी</b>\nBitmoji परवानगी चालू करा</string>
+    <string name="snap_kit_bitmoji_no_results">कोणतेही परिणाम सापडले नाहीत</string>
+    <string name="snap_kit_bitmoji_retry">पुन्हा प्रयत्न करा</string>
+    <string name="snap_kit_bitmoji_search_hint">Bitmoji शोधा...</string>
+    <string name="snap_kit_bitmoji_turn_on">चालू करा</string>
+</resources>

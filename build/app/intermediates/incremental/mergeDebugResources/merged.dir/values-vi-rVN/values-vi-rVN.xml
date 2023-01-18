@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Kết nối với Snapchat</string>
+    <string name="snap_connect_snap_error_cannot_share_content">Không thể chia sẻ nội dung này với Snapchat</string>
+    <string name="snap_kit_bitmoji_connection_error">Lỗi Kết Nối</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">Có gì đó sai sai. Hãy thử lại.</string>
+    <string name="snap_kit_bitmoji_connection_lost">Không Có Kết Nối</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">Kiểm tra kết nối của bạn và thử lại</string>
+    <string name="snap_kit_bitmoji_create_avatar">Tạo Bitmoji</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">Bạn sẽ được chuyển đến ứng dụng Snapchat</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">Tạo ảnh đại diện và nhận hàng ngàn sticker có bạn là nhân vật chính!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">Bạn sẽ được chuyển đến Snapchat</string>
+    <string name="snap_kit_bitmoji_login_title">Kết Nối Để Sử Dụng Sticker Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_permission_text"><b>Bật quyền cho phép Bitmoji</b>\nđể sử dụng Sticker Bitmoji</string>
+    <string name="snap_kit_bitmoji_no_results">Không Tìm Thấy Kết Quả</string>
+    <string name="snap_kit_bitmoji_retry">Thử Lại</string>
+    <string name="snap_kit_bitmoji_search_hint">Tìm Kiếm Bitmoji…</string>
+    <string name="snap_kit_bitmoji_turn_on">Bật</string>
+</resources>

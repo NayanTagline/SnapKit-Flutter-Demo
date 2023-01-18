@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snap_connect_login_button_text">Snapchat ਨਾਲ ਕਨੈਕਟ ਕਰੋ</string>
+    <string name="snap_connect_snap_error_cannot_share_content">ਇਸ ਸਮੱਗਰੀ ਨੂੰ Snapchat ਨਾਲ ਸਾਂਝਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ</string>
+    <string name="snap_kit_bitmoji_connection_error">ਕਨੈਕਸ਼ਨ ਵਿੱਚ ਗੜਬੜ</string>
+    <string name="snap_kit_bitmoji_connection_error_desc">ਕੋਈ ਗੜਬੜ ਹੋ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="snap_kit_bitmoji_connection_lost">ਕਨੈਕਸ਼ਨ ਟੁੱਟ ਗਿਆ</string>
+    <string name="snap_kit_bitmoji_connection_lost_desc">ਆਪਣੇ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="snap_kit_bitmoji_create_avatar">Bitmoji ਬਣਾਓ</string>
+    <string name="snap_kit_bitmoji_create_avatar_bottom_text">ਤੁਹਾਨੂੰ Snapchat ਐਪ \'ਤੇ ਲਿਜਾਇਆ ਜਾਵੇਗਾ</string>
+    <string name="snap_kit_bitmoji_create_avatar_title">ਆਪਣਾ ਅਵਤਾਰ ਬਣਾਓ ਅਤੇ ਤੁਹਾਨੂੰ ਸਟਾਰ ਬਣਾਉਣ ਵਾਲੇ ਹਜ਼ਾਰਾਂ ਸਟਿੱਕਰ ਪ੍ਰਾਪਤ ਕਰੋ!</string>
+    <string name="snap_kit_bitmoji_login_bottom_text">ਤੁਹਾਨੂੰ Snapchat \’ਤੇ ਲਿਜਾਇਆ ਜਾਵੇਗਾ</string>
+    <string name="snap_kit_bitmoji_login_title">Bitmoji ਸਟਿੱਕਰ ਵਰਤਣ ਲਈ ਕਨੈਕਟ ਕਰੋ</string>
+    <string name="snap_kit_bitmoji_no_permission_text"> Bitmoji ਸਟਿੱਕਰ ਵਰਤਣ ਲਈ<b>\nBitmoji ਇਜਾਜ਼ਤ ਚਾਲੂ ਕਰੋ</b></string>
+    <string name="snap_kit_bitmoji_no_results">ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਮਿਲੇ</string>
+    <string name="snap_kit_bitmoji_retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="snap_kit_bitmoji_search_hint">Bitmoji ਤਲਾਸ਼ ਕਰੋ...</string>
+    <string name="snap_kit_bitmoji_turn_on">ਚਾਲੂ ਕਰੋ</string>
+</resources>

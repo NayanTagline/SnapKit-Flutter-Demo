@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/jacobbrasil/snapkit_example/MainActivity.java
+ com.jacobbrasil.snapkit_example.MainActivity
+com/jacobbrasil/snapkit_example/BuildConfig.java
+ com.jacobbrasil.snapkit_example.BuildConfig
